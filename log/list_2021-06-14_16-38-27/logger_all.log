@@ -1,0 +1,40 @@
+[1.874s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/nazar/projects/dev/exam2']
+[1.874s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/nazar/projects/dev/exam2'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8e37977e80>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8e37977e80>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e37810b80>)
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.563s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nazar/projects/dev/exam2'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extensions ['ignore', 'ignore_ament_install']
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'ignore'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'ignore_ament_install'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extensions ['colcon_pkg']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'colcon_pkg'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extensions ['colcon_meta']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'colcon_meta'
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extensions ['ros']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'ros'
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extensions ['cmake', 'python']
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'cmake'
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'python'
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extensions ['python_setup_py']
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2) by extension 'python_setup_py'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/log) by extensions ['ignore', 'ignore_ament_install']
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/log) by extension 'ignore'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/log) ignored
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extensions ['ignore', 'ignore_ament_install']
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'ignore'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'ignore_ament_install'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extensions ['colcon_pkg']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'colcon_pkg'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extensions ['colcon_meta']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'colcon_meta'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extensions ['ros']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'ros'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extensions ['cmake', 'python']
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'cmake'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'python'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extensions ['python_setup_py']
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nazar/projects/dev/exam2/tasks) by extension 'python_setup_py'
+[2.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
