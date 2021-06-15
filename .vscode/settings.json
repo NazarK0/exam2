@@ -4,5 +4,8 @@
   ],
   "files.associations": {
     "sstream": "c"
-  }
+  },
+  "python.analysis.extraPaths": [
+    "/opt/ros/galactic/lib/python3.8/site-packages"
+  ]
 }
